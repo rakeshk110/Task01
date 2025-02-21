@@ -1,0 +1,74 @@
+.container img{
+  width:100%;
+  border-radius:.8em;
+  
+}
+.container{
+  display:grid;
+  background-color:hsl(0, 0%, 100%);
+  grid-template-columns:1fr;
+  border-radius:1.5em;
+  max-width: 1440px;
+  padding:1em;
+}
+hr{
+  margin:10px 0px;
+}
+ul,ol{
+  padding-left:1em;
+}
+li{
+  list-style-position:outside ;
+  padding-left:1.5em;
+  padding-bottom:.8em;
+}
+ol li,.pr{
+  line-height:1.5em;
+}
+.ptime{
+  background-color:hsl(330, 100%, 98%);
+  border-radius:.5em;
+  padding-left:.8em;
+}
+table{
+  width:100%;
+}
+table td{
+  border-bottom:1px solid;
+  border-collapse;collapse;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+.td1{
+  border-bottom: none;
+}
+.attribution{
+  margin-top:1.8em;
+}
+.container h2,tr td:nth-child(2){
+  color:hsl(14, 45%, 36%);
+}
+tr td:nth-child(2){
+  font-weight:bold;
+}
+h3{
+  color:hsl(332, 51%, 32%);
+}
+ol li::marker,#ul li::marker{
+  color:hsl(14, 45%, 36%);
+  font-weight:bold;
+}
+/* Applying Young Serif to headings */
+h1,h2,h3{
+    font-family:'Young Serif',serif;
+    font-weight:400;
+}
+p {
+    font-family: 'Outfit',sans-serif;
+}
+@media (max-width:1440px){
+  grid-template-columns:2fr;
+}
+
+
+
